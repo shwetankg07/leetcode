@@ -22,7 +22,7 @@ class Solution {
     }
 
     public boolean candoit(int[] A, int B, int k) {
-        int totalhours = 0;
+        long totalhours = 0;
         for (int i : A) {
             totalhours += (i + k - 1) / k;
         }
